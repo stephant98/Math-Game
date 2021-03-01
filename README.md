@@ -1,1 +1,1 @@
-# 2 Player interactive game!
+# 2 Player interactive Math Game!

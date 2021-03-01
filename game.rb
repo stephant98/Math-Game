@@ -23,12 +23,12 @@ class Game
         @host.speak("Correct!")
         @host.speak("#{@player1.name}: #{@player1.lives}/3 vs #{@player2.name}: #{@player2.lives}/3")
         switch_players
-        else
-          @host.speak("Incorrect")
-          @current_player.reduce_lives
-          @host.speak("#{@player1.name}: #{@player1.lives}/3 vs #{@player2.name}: #{@player2.lives}/3")
-          dead?(@current_player)
-          switch_players
+      else
+        @host.speak("Incorrect")
+        @current_player.reduce_lives
+        @host.speak("#{@player1.name}: #{@player1.lives}/3 vs #{@player2.name}: #{@player2.lives}/3")
+        dead?(@current_player)
+        switch_players
       end
     end
   end
