@@ -24,6 +24,7 @@ class Question
   end
 end
 
-newQ = Question.new
+# newQ = Question.new
 
-puts newQ.create_question
+# puts newQ.create_question
+# puts newQ.answer
